@@ -39,7 +39,7 @@ permalink: /
         <div class="section-heading">Bio Sketch</div>
         <div class="bio-block">
           <p>
-            I am a graduate student in the Department of Physics and Astronomy at Texas Tech University. I study accretion
+            I am a second year graduate student in the Department of Physics and Astronomy at Texas Tech University. I study accretion
             properties of active galactic nuclei through spectral, timing, and polarimetry observations. My particular
             interests include the origin of X-ray coronae, spectral states of accretion disks, and AGN winds.
           </p>
@@ -47,7 +47,7 @@ permalink: /
           <p>
             I completed my undergraduate studies at Ashoka University with a major in Physics and a minor in Astronomy,
             where I was introduced to high-energy astrophysics through work on the temporal and spectral properties of
-            stellar-mass black hole binaries.
+            stellar-mass black hole binaries. More information about my research is available here.
           </p>
         </div>
       </div>
