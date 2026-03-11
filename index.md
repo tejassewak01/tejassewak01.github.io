@@ -68,7 +68,7 @@ permalink: /
 
   <div class="home-quote-standalone">
     <span class="quote-mark">“</span>
-    <span class="quote-text">Why relativity, and Why turbulence?</span>
+    <span class="quote-text">Why relativity, and why turbulence?</span>
     <span class="quote-mark">”</span>
   </div>
 </div>
