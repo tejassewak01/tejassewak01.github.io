@@ -20,6 +20,17 @@ permalink: /
           <strong>Email:</strong> <a href="mailto:Tejas.Sewak@ttu.edu">Tejas.Sewak@ttu.edu</a><br>
           <strong>Phone:</strong> +1 (806) 401-9206
         </div>
+
+        <div class="bio-links details-links">
+          <a href="https://github.com/tejassewak01" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.depts.ttu.edu/phas/People/Graduate_Students/bio_sewak/bio_sewak.php" target="_blank" rel="noopener">Texas Tech Profile</a>
+        </div>
+
+        <div class="home-quote">
+          <span class="quote-mark">“</span>
+          <span class="quote-text">Why relativity, and Why turbulence?</span>
+          <span class="quote-mark">”</span>
+        </div>
       </div>
 
       <div class="home-photo">
@@ -44,11 +55,6 @@ permalink: /
             where I was introduced to high-energy astrophysics through work on the temporal and spectral properties of
             stellar-mass black hole binaries.
           </p>
-
-          <div class="bio-links">
-            <a href="https://github.com/tejassewak01" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://www.depts.ttu.edu/phas/People/Graduate_Students/bio_sewak/bio_sewak.php" target="_blank" rel="noopener">Texas Tech Profile</a>
-          </div>
         </div>
       </div>
 
