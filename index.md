@@ -4,10 +4,6 @@ title: Home
 permalink: /
 ---
 
-<div class="home-banner">
-  <img src="{{ '/banner.jpg' | relative_url }}" alt="Banner image">
-</div>
-
 <div class="wrapper wrapper-wide">
   <div class="home-shell">
     <div class="home-intro">
@@ -38,15 +34,15 @@ permalink: /
         <div class="section-heading">Bio Sketch</div>
         <div class="bio-block">
           <p>
-            I am a graduate student in the Department of Physics and Astronomy at Texas Tech University.
-            I study accretion properties of active galactic nuclei through spectral, timing, and polarimetry observations.
-            My particular interests include the origin of X-ray coronae, spectral states of accretion disks, and AGN winds.
+            I am a graduate student in the Department of Physics and Astronomy at Texas Tech University. I study accretion
+            properties of active galactic nuclei through spectral, timing, and polarimetry observations. My particular
+            interests include the origin of X-ray coronae, spectral states of accretion disks, and AGN winds.
           </p>
 
           <p>
             I completed my undergraduate studies at Ashoka University with a major in Physics and a minor in Astronomy,
-            where I was introduced to high-energy astrophysics through work on the temporal and spectral properties
-            of stellar-mass black hole binaries.
+            where I was introduced to high-energy astrophysics through work on the temporal and spectral properties of
+            stellar-mass black hole binaries.
           </p>
         </div>
       </div>
