@@ -4,8 +4,11 @@ title: ""
 ---
 
 <div class="home-hero-banner">
-  <h1>Tejas Sewak</h1>
-  <p>Astrophysicist</p>
+  <div class="home-hero-inner">
+    <div class="hero-kicker">Academic Homepage</div>
+    <h1>Tejas Sewak</h1>
+    <p>Graduate Student in Physics & Astronomy</p>
+  </div>
 </div>
 
 <div class="wrapper">
@@ -27,38 +30,41 @@ title: ""
       </div>
 
       <div class="home-photo">
-        <img src="{{ '/dp.jpg' | relative_url }}" alt="Tejas Sewak">
+        <div class="home-photo-frame">
+          <img src="{{ '/dp.jpg' | relative_url }}" alt="Tejas Sewak">
+        </div>
       </div>
     </div>
 
-    <div class="section-heading">Bio Sketch</div>
-    <div class="soft-divider"></div>
+    <div class="section-block">
+      <div class="section-heading">Bio Sketch</div>
+      <div class="bio-block">
+        <p>
+          I am a graduate student in the Department of Physics and Astronomy at Texas Tech University.
+          I study accretion properties of active galactic nuclei through spectral, timing, and polarimetry observations.
+          My particular interests include the origin of X-ray coronae, spectral states of accretion disks, and AGN winds.
+        </p>
 
-    <div class="bio-block">
-      <p>
-        I am a graduate student in the Department of Physics and Astronomy at Texas Tech University.
-        I study accretion properties of active galactic nuclei through spectral, timing, and polarimetry observations.
-        My particular interests include the origin of X-ray coronae, spectral states of accretion disks, and AGN winds.
-      </p>
-
-      <p>
-        I completed my undergraduate studies at Ashoka University with a major in Physics and a minor in Astronomy,
-        where I was introduced to high-energy astrophysics through work on the temporal and spectral properties
-        of stellar-mass black hole binaries.
-      </p>
+        <p>
+          I completed my undergraduate studies at Ashoka University with a major in Physics and a minor in Astronomy,
+          where I was introduced to high-energy astrophysics through work on the temporal and spectral properties
+          of stellar-mass black hole binaries.
+        </p>
+      </div>
     </div>
 
-    <div class="section-heading">Research Interests</div>
-    <div class="soft-divider"></div>
-
-    <div class="research-block">
-      <ul>
-        <li>Active galactic nuclei</li>
-        <li>X-ray spectroscopy</li>
-        <li>Accretion physics</li>
-        <li>AGN variability</li>
-        <li>High-energy astrophysics</li>
-      </ul>
+    <div class="section-block">
+      <div class="section-heading">Research Interests</div>
+      <div class="research-block">
+        <div class="research-grid">
+          <div class="research-item">Active galactic nuclei</div>
+          <div class="research-item">X-ray spectroscopy</div>
+          <div class="research-item">Accretion physics</div>
+          <div class="research-item">AGN variability</div>
+          <div class="research-item">High-energy astrophysics</div>
+          <div class="research-item">Multi-wavelength timing studies</div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
