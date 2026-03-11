@@ -44,6 +44,11 @@ permalink: /
             where I was introduced to high-energy astrophysics through work on the temporal and spectral properties of
             stellar-mass black hole binaries.
           </p>
+
+          <div class="bio-links">
+            <a href="https://github.com/tejassewak01" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.depts.ttu.edu/phas/People/Graduate_Students/bio_sewak/bio_sewak.php" target="_blank" rel="noopener">Texas Tech Profile</a>
+          </div>
         </div>
       </div>
 
