@@ -4,110 +4,152 @@
 @import "minima";
 
 :root {
-  --bg: #f7f7f7;
-  --text: #222222;
-  --muted: #555555;
-  --accent: #6f3fa5;
-  --nav-bg: #121212;
+  --bg: #f5f3f7;
+  --surface: #fbf9fc;
+  --text: #1f2430;
+  --muted: #4f5868;
+  --accent: #6d3ea2;
+  --accent-dark: #4b2c73;
+  --accent-soft: #ece3f7;
+  --nav-bg: #12131a;
   --white: #ffffff;
+  --link: #1f6aa5;
+  --border: rgba(31, 36, 48, 0.08);
 }
 
 body {
-  background: var(--bg);
+  background: linear-gradient(to bottom, #f4f1f7 0%, #f8f7fa 100%);
   color: var(--text);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.site-header {
-  background: var(--nav-bg);
-  border-top: 0;
-  border-bottom: 0;
-}
-
-.site-title,
-.site-title:visited {
-  color: var(--white) !important;
-  font-weight: 600;
-}
-
-.site-nav .page-link,
-.site-nav .page-link:visited {
-  color: var(--white) !important;
-  font-weight: 600;
-  margin-left: 24px;
-}
-
-.site-nav {
-  background: transparent;
-}
-
-.page-content {
-  padding-top: 0;
+  font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.75;
 }
 
 .wrapper {
   max-width: 1180px;
 }
 
+/* Top nav */
+.site-header {
+  background: rgba(18, 19, 26, 0.96);
+  border-top: 0;
+  border-bottom: 0;
+  backdrop-filter: blur(8px);
+}
+
+.site-title,
+.site-title:visited {
+  color: var(--white) !important;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.site-nav .page-link,
+.site-nav .page-link:visited {
+  color: rgba(255, 255, 255, 0.94) !important;
+  font-weight: 600;
+  margin-left: 24px;
+}
+
+.site-nav .page-link:hover {
+  color: #d8c4f3 !important;
+  text-decoration: none;
+}
+
+.page-content {
+  padding-top: 0;
+  padding-bottom: 48px;
+}
+
+/* Hide default page title */
+.post-title {
+  display: none;
+}
+
+/* Hero banner */
 .home-hero-banner {
   background:
-    linear-gradient(rgba(20, 15, 35, 0.45), rgba(20, 15, 35, 0.45)),
-    radial-gradient(circle at 70% 50%, rgba(145, 85, 190, 0.55), transparent 35%),
-    radial-gradient(circle at 35% 35%, rgba(85, 120, 220, 0.28), transparent 28%),
-    linear-gradient(120deg, #101826 0%, #24193a 45%, #3f2758 100%);
+    linear-gradient(rgba(19, 16, 34, 0.46), rgba(19, 16, 34, 0.46)),
+    radial-gradient(circle at 68% 45%, rgba(146, 94, 203, 0.55), transparent 25%),
+    radial-gradient(circle at 38% 28%, rgba(100, 144, 225, 0.25), transparent 24%),
+    linear-gradient(120deg, #0f1725 0%, #24173a 48%, #41235c 100%);
   color: white;
   text-align: center;
-  padding: 90px 20px 85px;
+  padding: 110px 20px 100px;
   margin-bottom: 56px;
 }
 
 .home-hero-banner h1 {
-  font-size: 4.2rem;
-  line-height: 1.05;
-  margin: 0 0 12px;
+  margin: 0 0 14px;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 5rem;
+  line-height: 1.02;
   font-weight: 700;
+  letter-spacing: -0.03em;
   color: white;
 }
 
 .home-hero-banner p {
-  font-size: 2rem;
   margin: 0;
+  font-size: 1.8rem;
   font-weight: 600;
-  color: white;
+  color: rgba(255, 255, 255, 0.95);
 }
 
+/* Main content shell */
+.home-shell {
+  background: rgba(251, 249, 252, 0.88);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  box-shadow: 0 18px 40px rgba(25, 22, 35, 0.08);
+  padding: 54px 52px;
+  margin-top: -10px;
+}
+
+/* Intro block */
 .home-intro {
   display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
+  grid-template-columns: 1.02fr 0.98fr;
   gap: 56px;
   align-items: start;
-  margin-bottom: 56px;
+  margin-bottom: 50px;
 }
 
 .home-details h2 {
-  font-size: 3rem;
-  color: var(--accent);
-  margin: 0 0 26px;
+  margin: 0 0 22px;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 3.2rem;
   line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--accent);
   font-weight: 700;
 }
 
 .home-details .position {
-  font-size: 1.18rem;
-  line-height: 1.9;
+  font-size: 1.2rem;
+  line-height: 1.95;
+  color: var(--text);
   font-weight: 600;
-  margin-bottom: 28px;
+  margin-bottom: 26px;
 }
 
 .home-details .contact {
-  font-size: 1.14rem;
+  font-size: 1.08rem;
   line-height: 2;
-  margin-bottom: 10px;
+  color: var(--muted);
+}
+
+.home-details .contact strong {
+  color: var(--text);
 }
 
 .home-details a {
-  color: #005b8f;
+  color: var(--link);
   font-weight: 600;
+  text-decoration: none;
+}
+
+.home-details a:hover {
+  text-decoration: underline;
 }
 
 .home-photo {
@@ -116,59 +158,75 @@ body {
 
 .home-photo img {
   width: 100%;
-  max-width: 460px;
+  max-width: 430px;
   height: auto;
   display: inline-block;
-  border-radius: 0;
-  box-shadow: none;
+  border-radius: 18px;
+  box-shadow: 0 18px 42px rgba(20, 20, 35, 0.16);
 }
 
+/* Section headings */
 .section-heading {
   text-align: center;
+  font-family: "Playfair Display", Georgia, serif;
   color: var(--accent);
-  font-size: 2.6rem;
+  font-size: 2.7rem;
   font-weight: 700;
-  margin: 18px 0 28px;
+  letter-spacing: -0.02em;
+  margin: 12px 0 24px;
 }
 
-.bio-block {
-  max-width: 1100px;
-  margin: 0 auto 18px;
-  font-size: 1.18rem;
-  line-height: 1.85;
+.bio-block,
+.research-block {
+  max-width: 980px;
+  margin: 0 auto 28px;
 }
 
 .bio-block p {
-  margin-bottom: 26px;
-}
-
-.research-block {
-  max-width: 1100px;
-  margin: 0 auto 30px;
+  font-size: 1.14rem;
+  line-height: 1.95;
+  color: var(--text);
+  margin-bottom: 24px;
 }
 
 .research-block ul {
-  font-size: 1.15rem;
-  line-height: 1.9;
+  font-size: 1.12rem;
+  line-height: 1.95;
+  color: var(--text);
   padding-left: 28px;
 }
 
-.post-title {
-  display: none;
+.research-block li::marker {
+  color: var(--accent);
 }
 
+/* Optional subtle divider */
+.soft-divider {
+  width: 120px;
+  height: 3px;
+  border-radius: 999px;
+  margin: 8px auto 34px;
+  background: linear-gradient(to right, var(--accent-soft), var(--accent), var(--accent-soft));
+}
+
+/* Mobile */
 @media screen and (max-width: 900px) {
   .home-hero-banner {
-    padding: 70px 20px 65px;
-    margin-bottom: 36px;
+    padding: 78px 20px 72px;
+    margin-bottom: 34px;
   }
 
   .home-hero-banner h1 {
-    font-size: 2.8rem;
+    font-size: 3.2rem;
   }
 
   .home-hero-banner p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+  }
+
+  .home-shell {
+    padding: 28px 24px;
+    border-radius: 18px;
   }
 
   .home-intro {
@@ -181,19 +239,19 @@ body {
   }
 
   .home-photo img {
-    max-width: 320px;
+    max-width: 300px;
   }
 
   .home-details h2 {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
   }
 
   .section-heading {
-    font-size: 2rem;
+    font-size: 2.1rem;
   }
 
-  .bio-block,
-  .research-block {
-    font-size: 1.05rem;
+  .bio-block p,
+  .research-block ul {
+    font-size: 1.03rem;
   }
 }
