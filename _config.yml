@@ -1,6 +1,8 @@
 title: Tejas Sewak
 description: Graduate Student, Department of Physics and Astronomy, Texas Tech University
 theme: minima
+
 header_pages:
   - index.md
+  - research.md
   - cv.md
