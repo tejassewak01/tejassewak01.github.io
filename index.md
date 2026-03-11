@@ -47,7 +47,8 @@ permalink: /
           <p>
             I completed my undergraduate studies at Ashoka University with a major in Physics and a minor in Astronomy,
             where I was introduced to high-energy astrophysics through work on the temporal and spectral properties of
-            stellar-mass black hole binaries. More information about my research is available here.
+            stellar-mass black hole binaries. 
+            <a href="{{ '/research/' | relative_url }}">More information about my research is available here.</a>
           </p>
         </div>
       </div>
