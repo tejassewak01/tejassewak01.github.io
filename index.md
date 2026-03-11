@@ -4,19 +4,15 @@ title: Home
 permalink: /
 ---
 
-<div class="home-hero-banner">
-  <div class="home-hero-inner">
-    <div class="hero-kicker">Academic Homepage</div>
-    <h1>Tejas Sewak</h1>
-    <p>Graduate Student in Physics & Astronomy</p>
-  </div>
+<div class="home-banner">
+  <img src="{{ '/banner.jpg' | relative_url }}" alt="Banner image">
 </div>
 
-<div class="wrapper">
+<div class="wrapper wrapper-wide">
   <div class="home-shell">
     <div class="home-intro">
       <div class="home-details">
-        <h2>Tejas Sewak</h2>
+        <h1>Tejas Sewak</h1>
 
         <div class="position">
           Graduate Student<br>
@@ -37,26 +33,26 @@ permalink: /
       </div>
     </div>
 
-    <div class="section-block">
-      <div class="section-heading">Bio Sketch</div>
-      <div class="bio-block">
-        <p>
-          I am a graduate student in the Department of Physics and Astronomy at Texas Tech University.
-          I study accretion properties of active galactic nuclei through spectral, timing, and polarimetry observations.
-          My particular interests include the origin of X-ray coronae, spectral states of accretion disks, and AGN winds.
-        </p>
+    <div class="home-lower">
+      <div class="bio-column">
+        <div class="section-heading">Bio Sketch</div>
+        <div class="bio-block">
+          <p>
+            I am a graduate student in the Department of Physics and Astronomy at Texas Tech University.
+            I study accretion properties of active galactic nuclei through spectral, timing, and polarimetry observations.
+            My particular interests include the origin of X-ray coronae, spectral states of accretion disks, and AGN winds.
+          </p>
 
-        <p>
-          I completed my undergraduate studies at Ashoka University with a major in Physics and a minor in Astronomy,
-          where I was introduced to high-energy astrophysics through work on the temporal and spectral properties
-          of stellar-mass black hole binaries.
-        </p>
+          <p>
+            I completed my undergraduate studies at Ashoka University with a major in Physics and a minor in Astronomy,
+            where I was introduced to high-energy astrophysics through work on the temporal and spectral properties
+            of stellar-mass black hole binaries.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="section-block">
-      <div class="section-heading">Research Interests</div>
-      <div class="research-block">
+      <div class="research-column">
+        <div class="section-heading">Research Interests</div>
         <div class="research-grid">
           <div class="research-item">Active galactic nuclei</div>
           <div class="research-item">X-ray spectroscopy</div>
