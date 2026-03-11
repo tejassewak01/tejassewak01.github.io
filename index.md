@@ -1,6 +1,7 @@
 ---
 layout: default
-title: ""
+title: Home
+permalink: /
 ---
 
 <div class="home-hero-banner">
