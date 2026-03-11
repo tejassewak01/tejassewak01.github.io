@@ -46,13 +46,27 @@ body {
   box-shadow: 0 8px 24px rgba(0,0,0,0.18);
 }
 
+.site-header .wrapper {
+  max-width: 1640px;
+  min-height: 88px;
+  display: flex;
+  align-items: center;
+}
+
 .site-title,
 .site-title:visited {
   color: var(--nav-text) !important;
   font-weight: 700;
   font-size: 1.65rem;
   letter-spacing: -0.01em;
-  line-height: 88px;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav {
+  margin-left: auto;
+  line-height: 1;
 }
 
 .site-nav .page-link,
@@ -61,9 +75,13 @@ body {
   font-weight: 700;
   font-size: 1.16rem;
   margin-left: 34px;
-  padding: 12px 0;
+  padding: 0;
   position: relative;
   letter-spacing: 0.01em;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  height: 88px;
 }
 
 .site-nav .page-link:hover {
@@ -75,7 +93,7 @@ body {
   content: "";
   position: absolute;
   left: 0;
-  bottom: 2px;
+  bottom: 24px;
   width: 0;
   height: 2px;
   background: #8ad8cf;
@@ -181,35 +199,7 @@ body {
 }
 
 .details-links {
-  margin-bottom: 26px;
-}
-
-.home-quote {
-  margin-top: 10px;
-  padding: 18px 22px;
-  border-left: 4px solid var(--accent);
-  background: linear-gradient(180deg, #f8fbfb 0%, #f3f8f7 100%);
-  border-radius: 0 18px 18px 0;
-  box-shadow: var(--shadow-soft);
-  width: fit-content;
-  max-width: 100%;
-}
-
-.quote-mark {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 2rem;
-  color: var(--accent);
-  vertical-align: middle;
-  line-height: 1;
-}
-
-.quote-text {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.45rem;
-  font-style: italic;
-  color: #17343a;
-  letter-spacing: 0.01em;
-  margin: 0 0.2rem;
+  margin-bottom: 0;
 }
 
 .home-photo {
@@ -280,6 +270,31 @@ body {
   box-shadow: 0 14px 28px rgba(16, 25, 31, 0.08);
 }
 
+/* standalone quote */
+.home-quote-standalone {
+  margin: 34px auto 0;
+  text-align: center;
+  max-width: 1000px;
+  padding: 18px 24px 6px;
+}
+
+.home-quote-standalone .quote-mark {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.8rem;
+  color: var(--accent);
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.home-quote-standalone .quote-text {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+  font-style: italic;
+  color: #16363b;
+  letter-spacing: 0.01em;
+  margin: 0 0.2rem;
+}
+
 @media screen and (max-width: 1100px) {
   .home-shell {
     padding: 34px 28px;
@@ -315,8 +330,12 @@ body {
     font-size: 1.95rem;
   }
 
-  .quote-text {
-    font-size: 1.15rem;
+  .home-quote-standalone .quote-text {
+    font-size: 1.2rem;
+  }
+
+  .home-quote-standalone .quote-mark {
+    font-size: 2rem;
   }
 
   .bio-block p,
