@@ -25,12 +25,6 @@ permalink: /
           <a href="https://github.com/tejassewak01" target="_blank" rel="noopener">GitHub</a>
           <a href="https://www.depts.ttu.edu/phas/People/Graduate_Students/bio_sewak/bio_sewak.php" target="_blank" rel="noopener">Texas Tech Profile</a>
         </div>
-
-        <div class="home-quote">
-          <span class="quote-mark">“</span>
-          <span class="quote-text">Why relativity, and Why turbulence?</span>
-          <span class="quote-mark">”</span>
-        </div>
       </div>
 
       <div class="home-photo">
@@ -70,5 +64,11 @@ permalink: /
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="home-quote-standalone">
+    <span class="quote-mark">“</span>
+    <span class="quote-text">Why relativity, and Why turbulence?</span>
+    <span class="quote-mark">”</span>
   </div>
 </div>
